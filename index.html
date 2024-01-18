@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Spanish</title>
+    <meta content="Spanish" property="og:title" />
+    <meta content="Spanish" property="twitter:title" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link
+        href="./styles.css"
+        rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script
+        type="text/javascript">WebFont.load({ google: { families: ["Vollkorn:400,400italic,700,700italic", "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Oswald:200,300,400,500,600,700"] } });</script>
+    <script
+        type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+</head>
+
+<body class="body">
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
+        role="banner" class="navbar w-nav">
+        <div class="w-container"><a href="#" class="brand-block w-nav-brand"><img
+                    src="./logo.png"
+                    loading="lazy" width="55" alt="" /></a>
+            <nav role="navigation" class="nav-menu w-nav-menu"><a href="#calendar"
+                    class="nav-link w-nav-link">Calendario</a><a href="#contact" class="nav-link w-nav-link">mensaje</a>
+            </nav>
+            <div class="menu-button w-nav-button">
+                <div class="w-icon-nav-menu"></div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container w-container">
+            <h1 class="main-heading">Programa tu cita dental en Columbia</h1>
+        </div>
+        <div class="div-block"><a href="/spanish" aria-current="page" class="button-2 w-button w--current">Español</a><a
+                href="/" class="button3 w-button">English</a></div>
+    </div>
+    <div class="about-section"></div>
+    <div class="about-section"></div>
+    <div id="calendar" class="section">
+        <div class="container-2 w-container"><a href="#calendar" class="button-copy">1) Ver Calendario Abajo</a>
+            <div class="div-block-2">
+                <div class="html-embed w-embed w-iframe"><iframe id="google-calendar"
+                        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=NzAzMmZiN2IwNWE4N2M0Zjc2OTIzM2I5ODQwMmJlMDcxMjdkNDc1NDBmNmUwMmQ4MTFmMWU4ZmE3MTQ4OGI0M0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23B39DDB"
+                        style="border:solid 1px #777" height="500" frameborder="0" scrolling="no"></iframe></div>
+                <div class="div-block-3"></div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="section contact">
+        <div class="container-5 w-container"><a href="#contact" class="b2-copy">2) Envíame un mensaje de texto</a>
+            <p class="style-2-copy">Puedes solicitar hasta 2 citas para una atención más rápida</p>
+            <p class="about-text">Basado en el calendario de arriba,<br /></p>
+            <p class="class4-copy"><strong class="bold-text-5">Envía una o dos solicitudes de cita por mensaje de texto
+                    a:</strong><br /></p>
+            <p class="class4-copy-copy"><strong class="bold-text-3">385-448-1014</strong><br /></p>
+            <p class="paragraph">(Las llamadas telefónicas y el buzón de voz pueden requerir más tiempo para una
+                respuesta)<br /></p><a href="#contact" class="b2-copy">3) Confirmaré una vez programada</a>
+        </div>
+        <div class="container-4 w-container">
+            <div class="w-row">
+                <div class="w-col w-col-6">
+                    <div class="icon-wrapper"><img
+                            src="./loc.png"
+                            width="44" alt="" /></div>
+                    <h3 class="heading-2">Ubicación</h3>
+                    <p class="contact-text">Vanderbilt Clinic 5th Floor<br />622 W 168th St<br />New York NY
+                        10032<br />(7th floor on Tuesday afternoons)
+                    </p>
+                </div>
+                <div class="w-col w-col-6">
+                    <div class="icon-wrapper _2"><img
+                            src="./msg.png"
+                            width="70" alt="" /></div>
+                    <h3 class="heading-3">Contacto</h3>
+                    <p class="contact-text">385-448-1014 (mobile)<br />David Walton, DDS Candidate<br />Columbia
+                        University<a href="mailto:google@google.com?subject=Hi!" target="_blank" class="link">‍</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script3.js"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+    <script src="./script1.js"
+        type="text/javascript"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var calendarIframe = document.getElementById('google-calendar');
+            var screenWidth = window.innerWidth || 320; // Default to 320px if screen width is unavailable
+
+            if (screenWidth < 600) { // Set a maximum width if needed
+                calendarIframe.style.width = screenWidth + 'px';
+            } else {
+                calendarIframe.style.width = '600px'; // Maximum width for larger screens
+            }
+        });
+    </script>
+</body>
+
+</html>
