@@ -222,10 +222,7 @@ html {
     content: "î˜";
   }
   
-  .w-icon-nav-menu:before {
-    content: "î˜‚";
-  }
-  
+
   .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
     content: "î˜ƒ";
   }
