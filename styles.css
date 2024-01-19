@@ -4,7 +4,23 @@ html {
     -webkit-text-size-adjust: 100%;
     font-family: sans-serif;
   }
-  
+
+
+  .button:hover, .button:active,
+  .button-2:hover, .button-2:active,
+  .button3:hover, .button3:active,
+  .button-copy:hover, .button-copy:active,
+  .b2:hover, .b2:active,
+  .b2-copy:hover, .b2-copy:active {
+      background-color: #637AD8; /* Adjust the color to the desired shade of blue */
+      color: #7EC4BD; /* Keep the text color white or change as needed */
+  }
+
+
+
+
+
+
   body {
     margin: 0;
   }
